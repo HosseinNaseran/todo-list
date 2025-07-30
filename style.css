@@ -16,7 +16,7 @@ body {
 
 .todo-list h1 {}
 
-.todo-list input {
+.search{
     width: 12rem;
     height: 2rem;
     border-radius: 25px;
@@ -56,10 +56,10 @@ body {
 
 }
 
-.todo-list-items li {
+.item{
     list-style: none;
     border: 1px solid aquamarine;
-    padding: 1rem;
+    padding: 1rem 2rem;
     font-size: 16px;
     display: flex;
     justify-content: flex-end;
@@ -70,10 +70,11 @@ body {
     border-radius: 15px;
     transition: .3s;
     box-shadow: 0px 0px 5px aquamarine
+
     
 }
 
-.todo-list-items li:hover {
+.item:hover {
     background-color: aquamarine;
     color: #000;
 }
@@ -100,4 +101,10 @@ body {
 .close:hover{
     background-color: red;
     color: #000;
+}
+
+.completed{
+    left: 0;
+    position: absolute; 
+    
 }
